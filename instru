@@ -3,3 +3,6 @@
 cria dentro do src a pasta main e __init__.py
 dentro da main cria server e __init__.py e server.py
 dntro da main cria routes e __init__.py e calculators.py
+
+
+pytest -s -v src/calculators/calculator_2_test.py

@@ -1,9 +1,9 @@
-from typing import dict
+from typing import Dict
 from pytest import raises
 from .calculator_1 import Calculator1
 
 class MockRequest:
-  def __init__(self, body: dict) -> None:
+  def __init__(self, body: Dict) -> None:
     self.json = body
     
 def test_calculate():
